@@ -1,0 +1,62 @@
+body{
+    background-color: #ebebeb;
+}
+.grad__all{
+    text-align: center;
+    font-size: 36px;
+    padding: 192px 0 0 0;
+}
+.grad__title{
+    font-size: 200%;
+    font-weight: bold;
+
+}
+.grad__subtitle{
+    font-size: 60%;
+    font-weight: 400;
+}
+
+
+.output__all{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+.output{
+    font-size: 36px;
+    max-width: 1000px;
+    padding: 50px;
+    width: 100vw;
+}
+.output__box{
+    display: inline-block;
+    box-shadow: 10px 10px 10px 5px var(--shadow);
+    padding: 20px;
+    border-radius: 50px 0;
+    margin-bottom: 50px;
+    background-color: white;
+}
+.box__title{
+    font-size: 55%;
+    color:var(--main-color);
+    font-weight: 500;
+    padding: 10px 0 20px 0;
+}
+.box__text{
+    font-size: 50%;
+    font-weight: 200;
+}
+
+@media screen and (max-width: 976px){
+    .grad__all{
+        font-size: 20px;
+        padding: 134px 0 0 0;
+    }
+    .output{
+        font-size: 23px;
+        padding: 0;
+        margin-top: 30px;
+    }
+
+}

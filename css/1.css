@@ -1,0 +1,68 @@
+body{
+    background-color: var(--background-color);
+}
+.teacher_all{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    padding: 192px 0 0 0;
+}
+.teacher_picture{
+    margin: 96px 100px 0 100px;
+}
+#teacherpic{
+    width:400px;
+    box-shadow: 10px 10px 10px 5px var(--shadow);
+}
+#teacherpic-superman{
+    width:400px;
+}
+.teacher_writing{
+    margin: 0 100px;
+    background-color:white;
+}
+.first-title{
+    font-size: 200%;
+    font-weight: bold;
+}
+.first-title-2{
+    font-size: 63%;
+    font-weight: 300;
+}
+.teacher_writing{
+    box-shadow: 10px 10px 10px 5px var(--shadow);
+    padding: 50px;
+    border-radius: 50px 0;
+}
+.first-subtitle{
+    font-weight: bold;
+    color: var(--main-color);
+}
+.first-subtitle-2{
+    font-size: 50%;
+    font-weight: 350;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1217px){
+    .teacher_all{
+        flex-direction: column;
+        font-size: 23px;
+        padding: 134px 0 0 0;
+    }
+    .teacher_picture{
+        margin: 0 auto;
+    }
+    #teacherpic{
+        width: 270px;
+    }
+    #teacherpic-superman{
+        width:270px;
+    }
+    .teacher_writing{
+        margin: 0 auto;
+        margin: 50px 20px 0 20px;
+    }
+
+}
