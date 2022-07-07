@@ -86,6 +86,7 @@ a{
     text-align: center;
     font-size: 60%;
     box-shadow: 5px 5px 5px 5px var(--shadow);
+    z-index: 2000;
 }
 /* footer */
 .address{
